@@ -1,0 +1,62 @@
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar{
+  height: 10vh;
+  width: 100vw;
+  background-color:#050E3C;
+  /* margin-bottom: 100%; */
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  overflow: hidden;
+  
+}
+
+.right{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 4%;
+    width: 40%;    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left{
+    font-size: 60%;
+    padding-left: 4%;
+    background: linear-gradient(90deg, #00FFDE, #6A42C2); /* gradient colors */
+  -webkit-background-clip: text;   /* clips background to text (webkit only) */
+  -webkit-text-fill-color: transparent; /* makes text itself transparent */
+}
+
+
+/* container1 */
+
+.container1{
+  height: 100vh;
+  width: 100vw;
+  background-color:#6A42C2;
+  background: url(image.jpg);
+  backdrop-filter: 200%;
+   filter: blur(0.5vh);
+  z-index: -1;
+}
+
+.container1 .hello {
+
+}
+
+
+
+
+
+
+
+
+
